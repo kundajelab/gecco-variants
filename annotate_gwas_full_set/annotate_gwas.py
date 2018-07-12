@@ -88,8 +88,8 @@ def main():
     for i in range(len(screen_beds)):
         screen_intersection=region_bed.intersect(screen_beds[i])
         cur_accession=screen_bed_names[i]
-        cur_tissue=screen_metadata.loc[cur_accession]['Tissue']
-        cur_category=screen_metadata.loc[cur_accession]['Category']
+        cur_tissue=str(screen_metadata.loc[cur_accession]['Tissue'])
+        cur_category=str(screen_metadata.loc[cur_accession]['Category'])
         cur_tissue_category='_'.join([cur_tissue,cur_category])
         for entry in screen_intersection:
             chrom=entry[0]
