@@ -1,0 +1,13 @@
+First, run wit the default tolerances to identify matched negatives on the same chrom: 
+generate_balanced_negative_set.py
+
+For the SNPs that don't have matched negatives, look for matched negatives on other chromosomes: 
+generate_balanced_negative_set_other_chroms.py  
+
+For the SNPs that still don't have matched negatives, used reduced stringency tissue match metrics: 
+generate_balanced_negative_set_other_chroms.py   --reduced_stringency 
+also, relax maf & gc thresholds: 
+maf_tolerance=0.05 
+gc_tolerance=0.05
+
+
