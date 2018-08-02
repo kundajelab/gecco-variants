@@ -1,0 +1,133 @@
+14:54363545_C/A	chr14	54363545	54363546	a	c	0.3654	0.0005936	0.365	MIR5580	51656	2048		skin of body;musculature of body;connective tissue;lung;limb;vagina;stomach;liver;epithelium;intestine;large intestine		mammary gland;kidney;brain;skin of body;thymus;musculature of body;connective tissue;lung;limb;urinary bladder;mouth;liver;tongue;embryo;epithelium;penis
+14:54369046_C/A	chr14	54369046	54369047	a	c	0.3675	0.0003844	0.51	MIR5580	46155	1502				
+14:54369299_G/A	chr14	54369299	54369300	a	g	0.3672	0.0003513	0.415	MIR5580	45902	1755				
+14:54370173_C/T	chr14	54370173	54370174	t	c	0.3673	0.0003707	0.28	MIR5580	45028	2629				
+14:54370749_G/C	chr14	54370749	54370750	c	g	0.3674	0.0004023	0.43	MIR5580	44452	3205				
+14:54372841_G/T	chr14	54372841	54372842	t	g	0.3724	0.0007459	0.375	MIR5580	42360	5297				
+14:54373292_A/T	chr14	54373292	54373293	a	t	0.6276	0.0008178	0.315	MIR5580	41909	5748				
+14:54374921_G/A	chr14	54374921	54374922	a	g	0.3671	0.0006753	0.31	MIR5580	40280	7377				
+14:54375228_C/T	chr14	54375228	54375229	t	c	0.3668	0.0005927	0.37	MIR5580	39973	7684				
+14:54375369_C/T	chr14	54375369	54375370	t	c	0.3668	0.000615	0.375	MIR5580	39832	7825				
+14:54419106_A/C	chr14	54419106	54419107	a	c	0.5600	1.149e-22	0.46499999999999997	BMP4	2163	997				
+14:54445157_G/A	chr14	54445157	54445158	a	g	0.6092	4.998e-10	0.405	BMP4	21603	725		liver;embryo;intestine;gonad;large intestine;ovary		
+14:54448347_G/A	chr14	54448347	54448348	a	g	0.6094	5.745e-10	0.51	BMP4	24793	1095				
+14:54448625_G/C	chr14	54448625	54448626	c	g	0.6094	6.181e-10	0.43000000000000005	BMP4	25071	1373				
+14:54457231_T/C	chr14	54457231	54457232	t	c	0.3907	4.432e-10	0.4	BMP4	33677	8481				
+14:54466458_G/A	chr14	54466458	54466459	a	g	0.6215	4.871e-08	0.535	BMP4	42904	235				
+14:54466565_G/T	chr14	54466565	54466566	t	g	0.5743	1.444e-08	0.51	BMP4	43011	342				
+14:54467584_A/G	chr14	54467584	54467585	a	g	0.4260	1.383e-08	0.46	BMP4	44030	359		vasculature;connective tissue;lung;mouth;musculature of body;liver;vein;epithelium;blood vessel		kidney;brain;bone element;uterus;skin of body;placenta;vasculature;connective tissue;lung;limb;eye;extraembryonic component;epithelium;intestine;large intestine;blood vessel;artery;penis
+14:54469737_C/T	chr14	54469737	54469738	t	c	0.5729	2.707e-08	0.445	BMP4	46183	1098		musculature of body;connective tissue;liver;lymph node		brain;kidney;bone element;bone marrow;skin of body;placenta;musculature of body;connective tissue;vasculature;limb;lung;mouth;extraembryonic component;embryo;epithelium;spinal cord;penis;blood vessel
+14:54469979_T/C	chr14	54469979	54469980	t	c	0.4250	1.913e-08	0.44499999999999995	BMP4	46425	1340	nan	musculature of body;connective tissue;lymph node;liver		kidney;brain;bone element;placenta;musculature of body;connective tissue;mouth;liver;extraembryonic component;lymph node;penis
+14:54470064_A/G	chr14	54470064	54470065	a	g	0.4252	1.993e-08	0.44	BMP4	46510	1425	nan	musculature of body;connective tissue;lymph node;liver		kidney;brain;bone element;placenta;musculature of body;connective tissue;mouth;liver;extraembryonic component;lymph node;penis
+14:54470264_A/G	chr14	54470264	54470265	a	g	0.4252	2.047e-08	0.44499999999999995	BMP4	46710	1625				
+14:54474183_C/T	chr14	54474183	54474184	t	c	0.5747	1.771e-08	0.45999999999999996	BMP4	50629	5544				
+14:54475434_G/C	chr14	54475434	54475435	c	g	0.5735	2.172e-08	0.395	BMP4	51880	6795				
+14:54478748_A/T	chr14	54478748	54478749	a	t	0.4267	2.209e-08	0.255	BMP4	55194	10109				
+14:54482574_T/C	chr14	54482574	54482575	t	c	0.4308	1.275e-08	0.375	BMP4	59020	9700				
+14:54484446_T/C	chr14	54484446	54484447	t	c	0.4311	1.118e-08	0.42500000000000004	BMP4	60892	7828				
+14:54484742_T/A	chr14	54484742	54484743	a	t	0.3915	1.051e-05	0.33499999999999996	BMP4	61188	7532				
+14:54485013_T/C	chr14	54485013	54485014	t	c	0.6089	9.857e-06	0.365	BMP4	61459	7261				
+14:54485490_A/G	chr14	54485490	54485491	a	g	0.6084	1.041e-05	0.32	BMP4	61936	6784				
+14:54485715_T/C	chr14	54485715	54485716	t	c	0.6085	1.015e-05	0.385	BMP4	62161	6559				
+14:54488399_A/G	chr14	54488399	54488400	a	g	0.4321	1.545e-08	0.365	BMP4	64845	3875				
+14:54493127_T/C	chr14	54493127	54493128	t	c	0.3398	1.024e-05	0.45	BMP4	69573	173				
+14:54500492_G/A	chr14	54500492	54500493	a	g	0.6554	1.271e-05	0.495	BMP4	76938	6733				
+14:54501410_G/C	chr14	54501410	54501411	c	g	0.6606	1.027e-05	0.385	BMP4	77856	7651				
+14:54503868_C/T	chr14	54503868	54503869	t	c	0.6597	1.509e-05	0.25	BMP4	80314	10109				
+14:54513254_T/C	chr14	54513254	54513255	t	c	0.4312	1.013e-08	0.47	BMP4	89700	19495	gonad;ovary	liver	mammary gland	nan
+14:54513277_C/A	chr14	54513277	54513278	a	c	0.6572	1.164e-05	0.46499999999999997	BMP4	89723	19518	gonad;ovary	liver	mammary gland	nan
+14:54515021_C/A	chr14	54515021	54515022	a	c	0.6567	1.308e-05	0.41500000000000004	BMP4	91467	21262	intestine;large intestine	blood;connective tissue;bodily fluid;liver		liver
+14:54515844_G/A	chr14	54515844	54515845	a	g	0.6567	1.266e-05	0.4	BMP4	92290	22085				
+14:54518826_A/G	chr14	54518826	54518827	a	g	0.3430	9.704e-06	0.375	BMP4	95272	25067				
+14:54526105_C/T	chr14	54526105	54526106	t	c	0.5670	1.139e-08	0.33999999999999997	BMP4	102551	32346				
+14:54534585_A/G	chr14	54534585	54534586	a	g	0.4147	5.285e-09	0.43500000000000005	BMP4	111031	26709				
+14:54535670_T/C	chr14	54535670	54535671	t	c	0.3221	6.297e-06	0.395	BMP4	112116	25624				
+14:54537889_C/T	chr14	54537889	54537890	t	c	0.5852	5.875e-09	0.315	BMP4	114335	23405				
+14:54542995_A/C	chr14	54542995	54542996	a	c	0.4147	5.466e-09	0.56	BMP4	119441	18299				
+14:54544221_A/C	chr14	54544221	54544222	a	c	0.3260	5.13e-06	0.425	BMP4	120667	17073				
+14:54546145_C/T	chr14	54546145	54546146	t	c	0.5728	5.12e-09	0.44	BMP4	122591	15149				
+14:54550075_A/C	chr14	54550075	54550076	a	c	0.4148	5.787e-09	0.38	BMP4	126521	11219				
+14:54554234_G/A	chr14	54554234	54554235	a	g	0.6738	5.319e-06	0.43000000000000005	BMP4	130680	7060		small intestine;placenta;vagina;stomach;extraembryonic component;embryo;intestine;gonad;large intestine;ovary		kidney;ureter;skin of body;placenta;musculature of body;connective tissue;lung;urinary bladder;stomach;extraembryonic component;embryo;intestine;large intestine;small intestine
+14:54558209_C/A	chr14	54558209	54558210	a	c	0.6738	4.84e-06	0.245	BMP4	134655	3085				
+14:54560018_T/C	chr14	54560018	54560019	t	c	0.4147	5.816e-09	0.485	BMP4	136464	1276				
+14:54563802_G/A	chr14	54563802	54563803	a	g	0.5852	6.176e-09	0.245	BMP4	140248	1818				
+14:54569247_T/C	chr14	54569247	54569248	t	c	0.3262	5.556e-06	0.36	BMP4	145693	2825		liver		
+14:54572089_C/T	chr14	54572089	54572090	t	c	0.8647	5.167e-07	0.36	BMP4	148535	0				
+14:54572590_G/A	chr14	54572590	54572591	a	g	0.6737	5.378e-06	0.395	BMP4	149036	0	mammary gland;skin of body;prostate gland;epithelium;intestine;large intestine	mammary gland;skin of body;musculature of body;lung;prostate gland;large intestine;thyroid gland;liver;epithelium;intestine;penis		
+14:54572981_A/G	chr14	54572981	54572982	a	g	0.3262	5.592e-06	0.33	BMP4	149427	0	mammary gland;skin of body;prostate gland;epithelium;intestine;large intestine	mammary gland;skin of body;musculature of body;lung;prostate gland;large intestine;thyroid gland;liver;epithelium;intestine;penis		
+14:54573321_C/G	chr14	54573321	54573322	c	g	0.1353	5.313e-07	0.35	BMP4	149767	321				
+14:54573424_C/T	chr14	54573424	54573425	t	c	0.8647	5.191e-07	0.33999999999999997	BMP4	149870	424	skin of body;musculature of body;connective tissue;mouth;prostate gland;epithelium;intestine;large intestine	connective tissue;adrenal gland;limb;prostate gland;epithelium;adipose tissue;intestine;blood vessel;thyroid gland;pancreas;penis;mammary gland;vasculature;lung;vein;skin of body;musculature of body;embryo;liver;large intestine		
+14:54574131_A/G	chr14	54574131	54574132	a	g	0.1353	4.929e-07	0.365	BMP4	150577	1131	skin of body;vasculature;connective tissue;musculature of body;mouth;epithelium;intestine;large intestine;blood vessel	connective tissue;adrenal gland;limb;prostate gland;epithelium;adipose tissue;intestine;blood vessel;thyroid gland;pancreas;penis;mammary gland;vasculature;lung;vein;skin of body;musculature of body;embryo;liver;large intestine		ureter;uterus;thymus;connective tissue;limb;adrenal gland;prostate gland;tongue;extraembryonic component;epithelium;intestine;blood vessel;bone element;heart;thyroid gland;eye;pancreas;kidney;placenta;vasculature;lung;mouth;lymphatic vessel;spinal cord;artery;skin of body;musculature of body;large intestine;liver;penis
+14:54574539_G/A	chr14	54574539	54574540	a	g	0.8647	4.781e-07	0.385	BMP4	150985	891				
+14:54574998_G/A	chr14	54574998	54574999	a	g	0.8647	4.76e-07	0.28	BMP4	151444	432				
+14:54576430_C/G	chr14	54576430	54576431	c	g	0.1353	5.059e-07	0.44	BMP4	152876	218	vasculature;connective tissue;lung;vein;epithelium;intestine;large intestine;blood vessel	mammary gland;brain;uterus;skin of body;vasculature;connective tissue;musculature of body;adrenal gland;mouth;lung;prostate gland;large intestine;liver;vein;thyroid gland;epithelium;intestine;penis;blood vessel		uterus;connective tissue;limb;adrenal gland;prostate gland;extraembryonic component;epithelium;intestine;blood vessel;bone marrow;bone element;heart;thyroid gland;eye;penis;mammary gland;brain;kidney;vasculature;lung;mouth;lymphatic vessel;artery;skin of body;musculature of body;bronchus;embryo;liver;large intestine
+14:54576543_T/C	chr14	54576543	54576544	t	c	0.1353	4.963e-07	0.505	BMP4	152989	331				
+14:54577170_C/G	chr14	54577170	54577171	c	g	0.1353	5.034e-07	0.355	BMP4	153616	958		mammary gland;skin of body;vasculature;connective tissue;adrenal gland;prostate gland;liver;vein;epithelium;penis;blood vessel		extraembryonic component
+14:54578261_C/T	chr14	54578261	54578262	t	c	0.8647	5.065e-07	0.345	BMP4	154707	2049				
+14:54578361_T/A	chr14	54578361	54578362	a	t	0.6739	5.732e-06	0.375	BMP4	154807	2149				
+14:54578730_A/T	chr14	54578730	54578731	a	t	0.1353	5.13e-07	0.37	BMP4	155176	2518				
+14:54579243_G/A	chr14	54579243	54579244	a	g	0.8647	5.131e-07	0.33499999999999996	BMP4	155689	3031				
+14:54579772_T/C	chr14	54579772	54579773	t	c	0.1353	5.133e-07	0.43	BMP4	156218	3560				
+14:54579787_T/C	chr14	54579787	54579788	t	c	0.3262	6.153e-06	0.44	BMP4	156233	3575				
+14:54580240_T/C	chr14	54580240	54580241	t	c	0.1353	5.364e-07	0.36	BMP4	156686	4028				
+14:54580272_T/C	chr14	54580272	54580273	t	c	0.3273	3.003e-06	0.365	BMP4	156718	4060				
+14:54582334_C/T	chr14	54582334	54582335	t	c	0.6705	9.937e-06	0.42000000000000004	BMP4	158780	6122				
+14:54583187_T/C	chr14	54583187	54583188	t	c	0.3297	9.935e-06	0.385	BMP4	159633	6975		skin of body;vasculature;adrenal gland;prostate gland;liver;vein;epithelium;gonad;blood vessel;ovary		
+14:54584142_C/T	chr14	54584142	54584143	t	c	0.6704	1.088e-05	0.305	BMP4	160588	7930	vasculature;vein;epithelium;blood vessel	brain;skin of body;vasculature;adrenal gland;prostate gland;liver;vein;pancreas;epithelium;gonad;blood vessel;ovary		bone marrow;brain;bone element;kidney;skin of body;uterus;vasculature;connective tissue;limb;adrenal gland;prostate gland;large intestine;extraembryonic component;epithelium;intestine;liver;penis;blood vessel;artery
+14:54586040_A/G	chr14	54586040	54586041	a	g	0.3290	1.005e-05	0.255	BMP4	162486	8278				
+14:54587761_G/A	chr14	54587761	54587762	a	g	0.6706	8.461e-06	0.38	BMP4	164207	6557		thyroid gland;adrenal gland		
+14:54587887_G/A	chr14	54587887	54587888	a	g	0.6706	7.948e-06	0.44999999999999996	BMP4	164333	6431				
+14:54590725_T/C	chr14	54590725	54590726	t	c	0.3291	1.056e-05	0.44499999999999995	BMP4	167171	3593				
+14:54590784_A/T	chr14	54590784	54590785	a	t	0.3293	9.861e-06	0.385	BMP4	167230	3534				
+14:54590809_G/A	chr14	54590809	54590810	a	g	0.6705	9.588e-06	0.405	BMP4	167255	3509				
+14:54591150_A/G	chr14	54591150	54591151	a	g	0.3293	8.996e-06	0.34500000000000003	BMP4	167596	3168				
+14:54591176_G/A	chr14	54591176	54591177	a	g	0.6707	9.227e-06	0.33999999999999997	BMP4	167622	3142				
+14:54591601_A/G	chr14	54591601	54591602	a	g	0.3295	9.798e-06	0.345	BMP4	168047	2717				
+14:54592346_C/T	chr14	54592346	54592347	t	c	0.6706	7.709e-06	0.505	BMP4	168792	1972				
+14:54592356_A/G	chr14	54592356	54592357	a	g	0.3345	5.631e-06	0.485	BMP4	168802	1962				
+14:54592962_T/C	chr14	54592962	54592963	t	c	0.3293	7.664e-06	0.29500000000000004	BMP4	169408	1356				
+14:54593375_C/T	chr14	54593375	54593376	t	c	0.6707	7.394e-06	0.39	BMP4	169821	943				
+14:54593644_T/C	chr14	54593644	54593645	t	c	0.3293	7.45e-06	0.375	BMP4	170090	674				
+14:54593887_A/T	chr14	54593887	54593888	a	t	0.3293	7.38e-06	0.44999999999999996	BMP4	170333	431		thyroid gland		thyroid gland
+14:54594060_T/C	chr14	54594060	54594061	t	c	0.3288	6.457e-06	0.375	BMP4	170506	258				
+14:54594278_C/T	chr14	54594278	54594279	t	c	0.6707	6.212e-06	0.42500000000000004	BMP4	170724	40				
+14:54595206_A/G	chr14	54595206	54595207	a	g	0.3295	7.625e-06	0.44000000000000006	BMP4	171652	661				
+14:54596202_G/C	chr14	54596202	54596203	c	g	0.6704	5.936e-06	0.355	BMP4	172648	1657				
+14:54596511_T/C	chr14	54596511	54596512	t	c	0.3288	6.227e-06	0.37	BMP4	172957	1966				
+14:54597733_C/T	chr14	54597733	54597734	t	c	0.6707	7.727e-06	0.405	BMP4	174179	3188				
+14:54598480_A/T	chr14	54598480	54598481	a	t	0.3293	7.702e-06	0.35	BMP4	174926	3935				
+14:54598551_C/T	chr14	54598551	54598552	t	c	0.6707	7.604e-06	0.33999999999999997	BMP4	174997	4006				
+14:54598965_T/G	chr14	54598965	54598966	t	g	0.3288	5.478e-06	0.35	BMP4	175411	4420				
+14:54599355_G/A	chr14	54599355	54599356	a	g	0.6714	5.513e-06	0.39	BMP4	175801	4810		liver		brain;kidney;bone element;limb;prostate gland;epithelium
+14:54600087_T/C	chr14	54600087	54600088	t	c	0.3287	6.179e-06	0.41500000000000004	BMP4	176533	5542				
+14:54600661_T/G	chr14	54600661	54600662	t	g	0.3292	5.662e-06	0.43500000000000005	BMP4	177107	6116	liver	liver;intestine;large intestine;small intestine		
+14:54600787_C/T	chr14	54600787	54600788	t	c	0.6705	7.862e-06	0.48	BMP4	177233	6242	liver	liver;intestine;large intestine;small intestine		
+14:54602074_C/T	chr14	54602074	54602075	t	c	0.6713	5.336e-06	0.48	BMP4	178520	7529		connective tissue;liver;adipose tissue;intestine;large intestine		
+14:54602303_T/C	chr14	54602303	54602304	t	c	0.3276	4.903e-06	0.415	BMP4	178749	7758		connective tissue;liver;adipose tissue;intestine;large intestine		
+14:54602456_G/A	chr14	54602456	54602457	a	g	0.6662	1.611e-05	0.41500000000000004	BMP4	178902	7911		connective tissue;liver;adipose tissue;intestine;large intestine		
+14:54602667_G/A	chr14	54602667	54602668	a	g	0.6648	2.241e-05	0.35	BMP4	179113	8122		connective tissue;liver;adipose tissue;intestine;large intestine		
+14:59183573_C/A	chr14	59183573	59183574	a	c	0.3604	0.07413	0.41500000000000004	DACT1	78019	14268	mammary gland;brain;skin of body;placenta;musculature of body;connective tissue;lung;mouth;vasculature;heart;breast;extraembryonic component;epithelium;penis;blood vessel;artery	musculature of body;adrenal gland;stomach;intestine;large intestine	mammary gland	
+14:59185056_G/T	chr14	59185056	59185057	t	g	0.1039	1.644e-08	0.425	DACT1	79502	12785		musculature of body;adrenal gland		placenta;musculature of body;extraembryonic component;embryo
+14:59185554_C/A	chr14	59185554	59185555	a	c	0.1038	1.43e-08	0.44	DACT1	80000	12287		musculature of body;adrenal gland		placenta;musculature of body;extraembryonic component;embryo
+14:59189361_G/A	chr14	59189361	59189362	a	g	0.1187	5.082e-11	0.45499999999999996	DACT1	83807	8480		adrenal gland		kidney;brain;ureter;skin of body;vasculature;lung;epithelium;penis;blood vessel
+14:59190230_T/A	chr14	59190230	59190231	a	t	0.3395	3.646e-07	0.52	DACT1	84676	7611				
+14:59191835_G/C	chr14	59191835	59191836	c	g	0.1801	0.002293	0.32	DACT1	86281	6006				
+14:59194655_C/T	chr14	59194655	59194656	t	c	0.2546	0.007685	0.5	DACT1	89101	3186				
+14:59194789_C/T	chr14	59194789	59194790	t	c	0.1768	0.003332	0.54	DACT1	89235	3052				
+14:59198493_A/C	chr14	59198493	59198494	a	c	0.8253	0.003549	0.355	DACT1	92939	0	skin of body;vasculature;musculature of body;lung;connective tissue;limb;vein;epithelium;intestine;large intestine;blood vessel	mammary gland;brain;uterus;skin of body;musculature of body;connective tissue;lung;mouth;limb;vasculature;prostate gland;vein;epithelium;intestine;large intestine;blood vessel		ureter;uterus;thymus;connective tissue;limb;adrenal gland;prostate gland;extraembryonic component;epithelium;intestine;blood vessel;bone marrow;bone element;heart;urinary bladder;stomach;eye;pancreas;penis;mammary gland;brain;kidney;vasculature;lung;mouth;artery;skin of body;musculature of body;bronchus;embryo;large intestine
+14:59201672_A/G	chr14	59201672	59201673	a	g	0.8189	0.006295	0.39	DACT1	96118	2810				
+14:59204202_G/A	chr14	59204202	59204203	a	g	0.1775	0.006235	0.45999999999999996	DACT1	98648	822		musculature of body;connective tissue;brain		
+14:59205524_G/A	chr14	59205524	59205525	a	g	0.2411	0.02262	0.375	DACT1	99970	278				
+14:59208437_G/A	chr14	59208437	59208438	a	g	0.3934	5.258e-11	0.345	DACT1	102883	3191				
+14:59209156_C/T	chr14	59209156	59209157	t	c	0.2794	1.895e-07	0.345	DACT1	103602	3799				
+14:59210335_G/A	chr14	59210335	59210336	a	g	0.9066	1.006e-10	0.475	DACT1	104781	2620				
+14:59210392_G/A	chr14	59210392	59210393	a	g	0.3024	3.665e-05	0.45999999999999996	DACT1	104838	2563				
+14:59210489_T/G	chr14	59210489	59210490	t	g	0.0930	1.865e-10	0.5	DACT1	104935	2466				
+14:59210646_A/G	chr14	59210646	59210647	a	g	0.0931	1.566e-10	0.375	DACT1	105092	2309				
+14:59210775_G/A	chr14	59210775	59210776	a	g	0.3052	2.235e-05	0.455	DACT1	105221	2180				
+14:59210881_G/A	chr14	59210881	59210882	a	g	0.9069	1.855e-10	0.42000000000000004	DACT1	105327	2074				
+14:59210944_T/C	chr14	59210944	59210945	t	c	0.0930	2.006e-10	0.37	DACT1	105390	2011				
+14:59210957_G/A	chr14	59210957	59210958	a	g	0.9070	2.129e-10	0.395	DACT1	105403	1998				
+14:59211420_T/C	chr14	59211420	59211421	t	c	0.0937	5.262e-10	0.37	DACT1	105866	1535				
+14:59211557_T/G	chr14	59211557	59211558	t	g	0.0938	4.627e-10	0.385	DACT1	106003	1398		thymus		
+14:94908030_A/T	chr14	94908030	94908031	a	t	0.9970	0.1028	0.5	SERPINA11	11091	7324				

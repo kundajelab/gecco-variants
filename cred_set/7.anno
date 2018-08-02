@@ -1,0 +1,117 @@
+7:44989199_A/G	chr7	44989199	44989200	a	g	0.8322	7.25e-08	0.415	MYO1G	29504	10104				
+7:44989350_C/T	chr7	44989350	44989351	t	c	0.1014	1.192e-06	0.51	MYO1G	29353	9953				
+7:45008501_T/C	chr7	45008501	45008502	t	c	0.8423	8.168e-08	0.42	MYO1G	10202	4062		musculature of body		
+7:45017244_C/T	chr7	45017244	45017245	t	c	0.1580	6.332e-08	0.615	MYO1G	1459	3552	intestine;blood;epithelium;adipose tissue;blood vessel;placenta;lymph node;thymus;esophagus;limb;large intestine;extraembryonic component;breast;small intestine;connective tissue;bodily fluid;spleen;vagina;bone element;musculature of body;uterus;liver;lymphoid tissue;vasculature	spleen;intestine;thymus;vagina;large intestine;thyroid gland;lymph node;blood;pancreas;bone element;musculature of body;extraembryonic component;uterus;liver;esophagus;lung;bodily fluid		uterus;bodily fluid;penis;intestine;small intestine;large intestine;blood;brain;epithelium;skin of body;thymus;connective tissue;limb
+7:45018263_G/A	chr7	45018263	45018264	a	g	0.1577	7.067e-08	0.635	MYO1G	440	4571	intestine;artery;stomach;blood;heart;brain;epithelium;adipose tissue;blood vessel;placenta;lymph node;thymus;esophagus;lung;limb;large intestine;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;spleen;penis;vagina;bone element;musculature of body;uterus;liver;lymphoid tissue;vasculature	intestine;stomach;blood;brain;epithelium;thyroid gland;lymph node;thymus;esophagus;lung;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;spleen;vagina;bone element;musculature of body;uterus;liver	lymph node;blood;bodily fluid	uterus;spleen;intestine;small intestine;large intestine;stomach;lymph node;blood;epithelium;thymus;embryo;esophagus;bodily fluid
+7:45019814_T/G	chr7	45019814	45019815	t	g	0.8015	1.47e-07	0.365	MYO1G	1110	5975				
+7:45021666_T/C	chr7	45021666	45021667	t	c	0.8019	1.361e-07	0.485	MYO1G	2962	4123				
+7:45021670_A/T	chr7	45021670	45021671	a	t	0.8019	1.366e-07	0.495	MYO1G	2966	4119				
+7:45021926_G/C	chr7	45021926	45021927	c	g	0.1561	4.974e-08	0.51	SNORA9	3182	3863				
+7:45023100_T/C	chr7	45023100	45023101	t	c	0.8439	5.685e-08	0.51	SNORA9	2008	2689				
+7:45023503_T/A	chr7	45023503	45023504	a	t	0.1561	5.312e-08	0.565	SNORA9	1605	2286	mouth;blood;brain;epithelium;mammary gland;blood vessel;lymph node;esophagus;lung;vein;pancreas;skin of body;breast;connective tissue;bodily fluid;penis;eye;prostate gland;bone element;musculature of body;uterus;embryo;vasculature	mouth;intestine;thymus;large intestine;bone element;lymph node;blood;pancreas;musculature of body;heart;brain;skin of body;epithelium;uterus;lung;bodily fluid	intestine;large intestine;blood;bodily fluid	
+7:45026180_G/A	chr7	45026180	45026181	a	g	0.2000	4.566e-07	0.675	SNHG15	78	0	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;adipose tissue;gonad;blood vessel;placenta;thyroid gland;lymph node;liver;bronchus;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;penis;spleen;spinal cord;eye;adrenal gland;vagina;prostate gland;bone element;kidney;musculature of body;uterus;embryo;lymphoid tissue;vasculature	mouth;intestine;stomach;blood;heart;brain;epithelium;ovary;mammary gland;gonad;blood vessel;placenta;thyroid gland;lymph node;liver;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;small intestine;penis;spleen;adrenal gland;vagina;prostate gland;bone element;musculature of body;uterus;embryo;vasculature	blood;brain;bodily fluid	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;tongue;gonad;blood vessel;placenta;thyroid gland;lymph node;ureter;liver;urinary bladder;bone marrow;bronchus;thymus;lymphatic vessel;esophagus;lung;limb;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;small intestine;penis;spinal cord;spleen;eye;adrenal gland;prostate gland;kidney;bone element;musculature of body;uterus;embryo;vasculature;testis
+7:45029357_C/T	chr7	45029357	45029358	t	c	0.1560	5.487e-08	0.5700000000000001	SNHG15	3098	2670				
+7:45029887_A/G	chr7	45029887	45029888	a	g	0.8440	5.404e-08	0.505	SNHG15	3628	3200		mouth;stomach;blood;heart;brain;epithelium;mammary gland;blood vessel;lymph node;thymus;lung;limb;vein;pancreas;skin of body;bodily fluid;connective tissue;penis;adrenal gland;musculature of body;uterus;liver;vasculature		mouth;artery;blood;heart;brain;epithelium;mammary gland;gonad;blood vessel;urinary bladder;bronchus;lung;limb;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;penis;eye;adrenal gland;bone element;kidney;musculature of body;uterus;embryo;vasculature;testis
+7:45031315_C/T	chr7	45031315	45031316	t	c	0.1993	3.392e-07	0.47	SNHG15	5056	4628		penis;blood vessel;vein;adrenal gland;lymph node;blood;musculature of body;epithelium;skin of body;uterus;liver;vasculature;bodily fluid		
+7:45031656_T/C	chr7	45031656	45031657	t	c	0.8440	5.517e-08	0.405	SNHG15	5397	4969		penis;blood vessel;vein;adrenal gland;lymph node;blood;musculature of body;epithelium;skin of body;uterus;liver;vasculature;bodily fluid		
+7:45036860_G/T	chr7	45036860	45036861	t	g	0.1559	5.478e-08	0.33499999999999996	CCM2	2483	2276				
+7:45038736_C/A	chr7	45038736	45038737	a	c	0.1559	6.7e-08	0.56	CCM2	607	400	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;adipose tissue;gonad;blood vessel;placenta;thyroid gland;lymph node;liver;bronchus;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;penis;spinal cord;eye;adrenal gland;vagina;prostate gland;bone element;kidney;musculature of body;uterus;embryo;lymphoid tissue;vasculature;testis	mouth;intestine;stomach;blood;heart;brain;epithelium;mammary gland;blood vessel;placenta;thyroid gland;lymph node;liver;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;small intestine;spleen;penis;adrenal gland;vagina;prostate gland;bone element;musculature of body;uterus;embryo;vasculature		intestine;blood;brain;epithelium;gonad;blood vessel;placenta;ureter;thymus;lung;limb;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;small intestine;eye;adrenal gland;kidney;musculature of body;vasculature;testis
+7:45043647_T/G	chr7	45043647	45043648	t	g	0.8428	5.191e-08	0.505	CCM2	3861	3756				
+7:45045830_C/G	chr7	45045830	45045831	c	g	0.8425	7.471e-08	0.475	CCM2	6044	5939				
+7:45051924_G/A	chr7	45051924	45051925	a	g	0.1571	3.899e-08	0.52	CCM2	12138	12033				
+7:45052498_T/C	chr7	45052498	45052499	t	c	0.8781	5.659e-08	0.42	CCM2	12712	12607				
+7:45053215_A/G	chr7	45053215	45053216	a	g	0.8427	4.424e-08	0.375	CCM2	13429	13324	blood;bodily fluid	blood;connective tissue;bodily fluid		bodily fluid;mouth;intestine;adrenal gland;large intestine;blood;connective tissue;small intestine
+7:45054600_C/T	chr7	45054600	45054601	t	c	0.2009	3.765e-07	0.42000000000000004	CCM2	12631	14709				
+7:45057328_C/T	chr7	45057328	45057329	t	c	0.1571	5.099e-08	0.42000000000000004	CCM2	9903	17437				
+7:45058510_C/T	chr7	45058510	45058511	t	c	0.1571	5.247e-08	0.49	CCM2	8721	18619				
+7:45060435_C/T	chr7	45060435	45060436	t	c	0.2003	4.503e-07	0.28500000000000003	CCM2	6796	20544				
+7:45061976_G/A	chr7	45061976	45061977	a	g	0.1571	5.258e-08	0.505	CCM2	5255	22085				
+7:45064922_C/T	chr7	45064922	45064923	t	c	0.2009	4.253e-07	0.42000000000000004	CCM2	2309	23395				
+7:45067267_G/C	chr7	45067267	45067268	c	g	0.2013	4.852e-07	0.41	CCM2	35	21050	intestine;artery;stomach;blood;heart;brain;epithelium;adipose tissue;blood vessel;placenta;lymph node;thymus;esophagus;limb;large intestine;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;spleen;penis;adrenal gland;vagina;bone element;musculature of body;liver;lymphoid tissue;vasculature	intestine;blood;brain;epithelium;mammary gland;blood vessel;lymph node;thymus;lung;vein;large intestine;skin of body;connective tissue;bodily fluid;penis;spleen;bone element;musculature of body;liver;vasculature	lymph node	penis;spleen;intestine;blood vessel;small intestine;large intestine;lymph node;blood;epithelium;skin of body;thymus;esophagus;lung;vasculature;bodily fluid
+7:45068112_C/T	chr7	45068112	45068113	t	c	0.1571	4.954e-08	0.525	CCM2	880	20205	intestine;artery;stomach;blood;heart;brain;epithelium;adipose tissue;blood vessel;placenta;lymph node;thymus;esophagus;lung;limb;large intestine;extraembryonic component;breast;bodily fluid;connective tissue;small intestine;spleen;adrenal gland;vagina;bone element;kidney;musculature of body;liver;lymphoid tissue;vasculature	spleen;intestine;large intestine;bone element;lymph node;blood;brain;skin of body;thymus;liver;bodily fluid	nan	blood;bodily fluid
+7:45068583_C/G	chr7	45068583	45068584	c	g	0.8428	4.749e-08	0.52	CCM2	1351	19734	intestine;artery;stomach;blood;heart;brain;epithelium;adipose tissue;blood vessel;lymph node;thymus;esophagus;limb;large intestine;breast;bodily fluid;small intestine;connective tissue;spleen;bone element;musculature of body;liver;lymphoid tissue;vasculature	spleen;intestine;large intestine;bone element;lymph node;blood;skin of body;thymus;bodily fluid		thymus;blood;bodily fluid
+7:45068827_G/A	chr7	45068827	45068828	a	g	0.1554	3.949e-08	0.45499999999999996	CCM2	1595	19490				
+7:45073890_A/G	chr7	45073890	45073891	a	g	0.8345	2.011e-07	0.46499999999999997	CCM2	6658	14427				
+7:45075512_G/A	chr7	45075512	45075513	a	g	0.1238	9.593e-08	0.30000000000000004	CCM2	8280	12805	intestine;large intestine;prostate gland;lymph node;blood;epithelium;skin of body;thymus;liver;bodily fluid	bone element;lymph node;blood;liver;thymus;embryo;esophagus;bodily fluid		bodily fluid;mouth;intestine;placenta;eye;large intestine;prostate gland;blood;bronchus;extraembryonic component;epithelium;thymus;mammary gland;esophagus;lung;tongue;small intestine
+7:45082777_C/G	chr7	45082777	45082778	c	g	0.8424	8.012e-08	0.49	CCM2	15545	5540				
+7:45084821_T/G	chr7	45084821	45084822	t	g	0.8427	5.848e-08	0.405	CCM2	17589	3496				
+7:45086038_C/T	chr7	45086038	45086039	t	c	0.1573	5.918e-08	0.425	CCM2	18806	2279				
+7:45086665_A/G	chr7	45086665	45086666	a	g	0.7990	4.911e-07	0.42	CCM2	19433	1652				
+7:45090144_A/T	chr7	45090144	45090145	a	t	0.8423	7.145e-08	0.41	CCM2	22912	1391		blood;bodily fluid		blood;spleen;bodily fluid
+7:45090506_G/T	chr7	45090506	45090507	t	g	0.2015	5.579e-07	0.47000000000000003	CCM2	23274	1753				
+7:45093279_C/T	chr7	45093279	45093280	t	c	0.2016	4.07e-07	0.56	CCM2	26047	4526		nan		
+7:45093834_A/G	chr7	45093834	45093835	a	g	0.8424	6.964e-08	0.49	CCM2	26602	5081				
+7:45095069_C/T	chr7	45095069	45095070	t	c	0.1573	5.528e-08	0.48	CCM2	27837	6316				
+7:45097660_T/C	chr7	45097660	45097661	t	c	0.8424	6.973e-08	0.505	CCM2	30428	8907		blood;lung;bodily fluid		
+7:45101776_C/T	chr7	45101776	45101777	t	c	0.2005	6.523e-07	0.37	NACAD	26716	6094				
+7:45103481_A/G	chr7	45103481	45103482	a	g	0.7993	7.242e-07	0.495	NACAD	25011	4389				
+7:45103771_C/T	chr7	45103771	45103772	t	c	0.2007	7.408e-07	0.425	NACAD	24721	4099		blood;bodily fluid		embryo
+7:45105210_C/T	chr7	45105210	45105211	t	c	0.1569	9.028e-08	0.495	NACAD	23282	2660		blood;bodily fluid		thyroid gland
+7:45107868_A/G	chr7	45107868	45107869	a	g	0.7993	7.451e-07	0.5449999999999999	NACAD	20624	2				
+7:45112712_A/G	chr7	45112712	45112713	a	g	0.7993	7.554e-07	0.625	NACAD	15780	4231	brain	penis;brain;skin of body;mammary gland;embryo;connective tissue	blood vessel;eye;lymph node;blood;musculature of body;brain;epithelium;skin of body;uterus;mammary gland;embryo;esophagus;lung;vasculature;connective tissue;bodily fluid	gonad;eye;kidney;blood;brain;testis;embryo;bodily fluid
+7:45112773_T/C	chr7	45112773	45112774	t	c	0.7993	7.579e-07	0.645	NACAD	15719	4292	brain	penis;brain;skin of body;mammary gland;embryo;connective tissue	blood vessel;eye;lymph node;blood;musculature of body;brain;epithelium;skin of body;uterus;mammary gland;embryo;esophagus;lung;vasculature;connective tissue;bodily fluid	gonad;eye;kidney;blood;brain;testis;embryo;bodily fluid
+7:45116136_T/C	chr7	45116136	45116137	t	c	0.8379	5.914e-08	0.575	NACAD	12356	3774		blood;brain;extraembryonic component;bodily fluid		
+7:45116145_A/G	chr7	45116145	45116146	a	g	0.7948	7.445e-07	0.585	NACAD	12347	3765		blood;brain;extraembryonic component;bodily fluid		
+7:45116885_C/G	chr7	45116885	45116886	c	g	0.7990	7.757e-07	0.605	NACAD	11607	3025		brain;bone element	blood;bodily fluid	embryo;extraembryonic component
+7:45117219_C/T	chr7	45117219	45117220	t	c	0.2015	6.764e-07	0.565	NACAD	11273	2691				
+7:45117538_G/A	chr7	45117538	45117539	a	g	0.2015	6.673e-07	0.5549999999999999	NACAD	10954	2372				
+7:45119515_A/G	chr7	45119515	45119516	a	g	0.8772	8.571e-08	0.585	NACAD	8977	395		blood;brain;bodily fluid	blood;brain;mammary gland;bodily fluid	intestine;large intestine;blood;embryo;bodily fluid
+7:45119946_T/G	chr7	45119946	45119947	t	g	0.7985	5.879e-07	0.59	NACAD	8546	0		blood;brain;bodily fluid	eye;lymph node;blood;brain;epithelium;skin of body;uterus;mammary gland;lung;bodily fluid	intestine;eye;thymus;embryo;large intestine;kidney;blood;pancreas;brain;uterus;liver;bodily fluid
+7:45120704_C/T	chr7	45120704	45120705	t	c	0.1578	6.559e-08	0.56	NACAD	7788	82				
+7:45127332_G/A	chr7	45127332	45127333	a	g	0.1603	4.984e-08	0.61	NACAD	1160	4494				
+7:45130907_C/A	chr7	45130907	45130908	a	c	0.1603	5.31e-08	0.45499999999999996	NACAD	2414	919				
+7:45131210_G/A	chr7	45131210	45131211	a	g	0.1603	4.728e-08	0.485	NACAD	2717	616				
+7:45133116_A/T	chr7	45133116	45133117	a	t	0.8379	3.686e-08	0.385	NACAD	4623	509				
+7:45135387_C/G	chr7	45135387	45135388	c	g	0.8391	2.837e-08	0.445	NACAD	6894	2780				
+7:45136392_G/A	chr7	45136392	45136393	a	g	0.1610	2.533e-08	0.39	SNORA5A	7688	2517				
+7:45136423_T/C	chr7	45136423	45136424	t	c	0.8390	2.399e-08	0.41500000000000004	SNORA5A	7657	2486				
+7:45136513_T/C	chr7	45136513	45136514	t	c	0.8390	2.546e-08	0.46499999999999997	SNORA5A	7567	2396				
+7:45136904_G/C	chr7	45136904	45136905	c	g	0.1610	2.67e-08	0.33999999999999997	SNORA5A	7176	2005		blood;bodily fluid		
+7:45138574_T/G	chr7	45138574	45138575	t	g	0.8358	2.718e-08	0.47	SNORA5A	5506	335				
+7:45140599_T/C	chr7	45140599	45140600	t	c	0.8357	2.731e-08	0.595	SNORA5A	3481	1192		blood;bodily fluid		
+7:45143892_A/G	chr7	45143892	45143893	a	g	0.8356	2.642e-08	0.55	SNORA5A	188	4485		musculature of body;limb		embryo
+7:45144113_C/T	chr7	45144113	45144114	t	c	0.1645	2.663e-08	0.5800000000000001	SNORA5A	32	4706		limb;blood;musculature of body;bodily fluid		
+7:45148667_G/A	chr7	45148667	45148668	a	g	0.1642	8.477e-08	0.5700000000000001	TBRG4	2678	2333	mouth;penis;intestine;gonad;small intestine;large intestine;prostate gland;bone element;lymph node;blood;pancreas;testis;epithelium;skin of body;mammary gland;liver;connective tissue;bodily fluid	penis;intestine;large intestine;blood;pancreas;uterus;connective tissue;bodily fluid		embryo
+7:45148773_C/A	chr7	45148773	45148774	a	c	0.1645	8.587e-08	0.58	TBRG4	2572	2227	mouth;penis;intestine;gonad;small intestine;large intestine;prostate gland;bone element;lymph node;blood;pancreas;testis;epithelium;skin of body;mammary gland;liver;connective tissue;bodily fluid	penis;intestine;large intestine;blood;pancreas;uterus;connective tissue;bodily fluid		embryo
+7:45150331_A/C	chr7	45150331	45150332	a	c	0.7327	5.918e-07	0.395	TBRG4	1014	669	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;adipose tissue;gonad;blood vessel;placenta;thyroid gland;lymph node;liver;bronchus;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;penis;spleen;spinal cord;eye;adrenal gland;vagina;prostate gland;bone element;kidney;musculature of body;uterus;embryo;lymphoid tissue;vasculature;testis	mouth;intestine;stomach;blood;heart;brain;epithelium;mammary gland;blood vessel;placenta;thyroid gland;lymph node;liver;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;bodily fluid;connective tissue;small intestine;penis;spleen;adrenal gland;vagina;prostate gland;bone element;musculature of body;uterus;embryo;vasculature		spleen;intestine;small intestine;large intestine;stomach;kidney;blood;thymus;bodily fluid
+7:45153306_A/C	chr7	45153306	45153307	a	c	0.8019	7.744e-07	0.415	TBRG4	1960	1336				
+7:45153580_A/G	chr7	45153580	45153581	a	g	0.8019	6.887e-07	0.305	TBRG4	2234	1610				
+7:45155110_G/A	chr7	45155110	45155111	a	g	0.1635	1.05e-07	0.54	TBRG4	3764	3140				
+7:45155112_T/G	chr7	45155112	45155113	t	g	0.7778	7.347e-07	0.55	TBRG4	3766	3142				
+7:45156242_G/A	chr7	45156242	45156243	a	g	0.1641	9.807e-08	0.48	TBRG4	4896	4272				
+7:45161303_A/C	chr7	45161303	45161304	a	c	0.8380	7.033e-07	0.51	TBRG4	9957	9333				
+7:45163099_C/T	chr7	45163099	45163100	t	c	0.1812	6.027e-07	0.5599999999999999	TBRG4	11753	11129	blood;bodily fluid	lymph node;blood;skin of body;bodily fluid		blood;embryo;bodily fluid
+7:45960645_G/C	chr7	45960645	45960646	c	g	0.4296	3.65e-05	0.79	IGFBP3	225	41	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;adipose tissue;gonad;blood vessel;placenta;thyroid gland;lymph node;liver;bronchus;thymus;esophagus;lung;limb;vein;large intestine;pancreas;extraembryonic component;skin of body;breast;connective tissue;bodily fluid;small intestine;penis;spleen;spinal cord;eye;adrenal gland;vagina;prostate gland;kidney;bone element;musculature of body;uterus;embryo;lymphoid tissue;vasculature;testis	intestine;embryo;blood;heart;brain;blood vessel;lymph node;lung;limb;large intestine;extraembryonic component;skin of body;bodily fluid;connective tissue;penis;spleen;vagina;musculature of body;uterus;liver;vasculature	brain;skin of body;connective tissue	mouth;intestine;artery;stomach;blood;heart;brain;epithelium;ovary;mammary gland;tongue;gonad;blood vessel;placenta;thyroid gland;lymph node;ureter;liver;bronchus;bone marrow;thymus;lymphatic vessel;lung;limb;large intestine;pancreas;extraembryonic component;skin of body;connective tissue;bodily fluid;spinal cord;penis;small intestine;spleen;eye;adrenal gland;prostate gland;kidney;bone element;musculature of body;uterus;embryo;vasculature;testis
+7:45963445_C/G	chr7	45963445	45963446	c	g	0.9592	0.001698	0.42	IGFBP3	2574	302	pancreas;brain;skin of body;mammary gland;embryo;lung;connective tissue	limb;prostate gland;musculature of body;brain;extraembryonic component;skin of body;epithelium;mammary gland;embryo;lung;connective tissue	blood vessel;vein;kidney;blood;epithelium;lung;vasculature;bodily fluid	gonad;stomach;kidney;heart;brain;musculature of body;testis;skin of body;uterus;embryo;lung;limb
+7:45984820_C/T	chr7	45984820	45984821	t	c	0.3159	2.026e-05	0.27	IGFBP3	23949	5809				
+7:45994378_A/T	chr7	45994378	45994379	a	t	0.6840	1.764e-05	0.295	IGFBP3	33507	1443				
+7:46008110_G/A	chr7	46008110	46008111	a	g	0.4333	3.359e-05	0.53	IGFBP3	47239	5547				
+7:46010100_C/G	chr7	46010100	46010101	c	g	0.5357	0.0002777	0.39	IGFBP3	49229	3557		penis;blood vessel;musculature of body;extraembryonic component;vasculature;connective tissue		
+7:46033053_T/C	chr7	46033053	46033054	t	c	0.7395	0.0007371	0.4	IGFBP3	72182	7278				
+7:46035291_A/G	chr7	46035291	46035292	a	g	0.7391	0.0005875	0.28500000000000003	IGFBP3	74420	8322				
+7:46046915_G/A	chr7	46046915	46046916	a	g	0.1330	0.00119	0.385	IGFBP3	86044	2655		vagina;prostate gland;heart;musculature of body;pancreas;epithelium;mammary gland;limb		penis;mouth;prostate gland;kidney;epithelium;skin of body;extraembryonic component;uterus;mammary gland;lung;connective tissue
+7:46050598_G/A	chr7	46050598	46050599	a	g	0.1608	0.000121	0.43499999999999994	IGFBP3	89727	6338				
+7:46057109_C/T	chr7	46057109	46057110	t	c	0.1607	0.0001185	0.36	IGFBP3	96238	12849				
+7:46058206_C/A	chr7	46058206	46058207	a	c	0.8393	0.0001184	0.33499999999999996	IGFBP3	97335	13946				
+7:46059603_T/A	chr7	46059603	46059604	a	t	0.1608	0.0001245	0.315	IGFBP3	98732	15343				
+7:46059924_A/C	chr7	46059924	46059925	a	c	0.8391	0.000133	0.30500000000000005	IGFBP3	99053	15664				
+7:46063777_C/T	chr7	46063777	46063778	t	c	0.1608	0.000113	0.42000000000000004	IGFBP3	102906	19517	musculature of body	musculature of body;limb		
+7:46068074_A/G	chr7	46068074	46068075	a	g	0.8392	0.0001009	0.41500000000000004	IGFBP3	107203	22790		lymph node;embryo;extraembryonic component		
+7:46071829_A/G	chr7	46071829	46071830	a	g	0.8399	9.865e-05	0.325	IGFBP3	110958	19035	heart	placenta;limb;prostate gland;musculature of body;extraembryonic component;skin of body;embryo;lung;connective tissue		
+7:46072544_A/G	chr7	46072544	46072545	a	g	0.8399	9.67e-05	0.505	IGFBP3	111673	18320	heart	placenta;limb;prostate gland;musculature of body;extraembryonic component;skin of body;embryo;lung;connective tissue		
+7:46073269_T/G	chr7	46073269	46073270	t	g	0.8401	9.15e-05	0.515	IGFBP3	112398	17595	heart;connective tissue	mouth;limb;prostate gland;musculature of body;heart;extraembryonic component;skin of body;embryo;lung;connective tissue		
+7:46076075_G/T	chr7	46076075	46076076	t	g	0.8409	0.0001112	0.415	IGFBP3	115204	14789				
+7:46076841_C/T	chr7	46076841	46076842	t	c	0.4494	9.048e-05	0.52	IGFBP3	115970	14023		embryo;extraembryonic component	epithelium;skin of body	
+7:46084085_C/T	chr7	46084085	46084086	t	c	0.4475	0.0001476	0.47	IGFBP3	123214	6779				
+7:46085280_G/C	chr7	46085280	46085281	c	g	0.4501	7.471e-05	0.34	IGFBP3	124409	5584				
+7:46094089_C/T	chr7	46094089	46094090	t	c	0.1040	3.513e-06	0.44999999999999996	IGFBP3	133218	3040		adrenal gland;heart;musculature of body;extraembryonic component;embryo;limb		
+7:46102025_G/T	chr7	46102025	46102026	t	g	0.4490	8.525e-05	0.56	IGFBP3	141154	10976				
+7:46117498_C/A	chr7	46117498	46117499	a	c	0.4468	7.862e-05	0.35	IGFBP3	156627	26449				
+7:46118831_C/T	chr7	46118831	46118832	t	c	0.4469	7.693e-05	0.36	IGFBP3	157960	27782				
+7:46120478_T/C	chr7	46120478	46120479	t	c	0.5531	8.15e-05	0.35	IGFBP3	159607	29429				
+7:46124928_G/T	chr7	46124928	46124929	t	g	0.1596	0.0001076	0.28500000000000003	IGFBP3	164057	33879				
+7:46127862_A/G	chr7	46127862	46127863	a	g	0.4468	9.384e-05	0.525	IGFBP3	166991	36813				
+7:46128249_G/A	chr7	46128249	46128250	a	g	0.4468	9.312e-05	0.54	IGFBP3	167378	37200		musculature of body		gonad;blood vessel;brain;testis;epithelium;embryo;lung;vasculature;connective tissue
+7:46128514_A/T	chr7	46128514	46128515	a	t	0.5533	9.57e-05	0.52	IGFBP3	167643	37465				
+7:46131446_T/C	chr7	46131446	46131447	t	c	0.5531	9.707e-05	0.41000000000000003	IGFBP3	170575	38053				
+7:46131649_T/C	chr7	46131649	46131650	t	c	0.8398	8.935e-05	0.335	IGFBP3	170778	37850				
