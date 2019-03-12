@@ -5,7 +5,7 @@ import pdb
 def parse_args():
     parser=argparse.ArgumentParser("Tally allele frequency counts in CRC positive set")
     parser.add_argument("--bin_list",default="positive_crc.merged.bed")
-    parser.add_argument("--nbins",type=int,nargs="+",default=[700000,500000,400000,300000,200000,100000,50000,25000])
+    parser.add_argument("--nbins",type=int,nargs="+",default=[797097,700000,600000,500000,400000,300000,200000,100000,50000,25000,10000,5000,1000])
     parser.add_argument("--thresholds",type=float,nargs="+",default=[0.5,0.4,0.3,0.2,0.1, 0.09, 0.08, 0.07, 0.06, 0.05, 0.04, 0.03, 0.02, 0.01, 0.009, 0.008, 0.007, 0.006, 0.005, 0.004, 0.003, 0.002, 0.0011])
     parser.add_argument("--positive_maf_intersection",default="positive_maf_intersection.bed")
     parser.add_argument("--outf",default="tally.txt")
@@ -47,7 +47,7 @@ def main():
         for thresh in thresholds:
             aggregate_counts[thresh]=0
         for cur_bin in bin_sample.itertuples():
-            key='_'.join([str(i) for i in cur_bin])
+            key='_'.join([str(i) for i in cur_bin[1::]])
             for thresh in thresholds:
                 aggregate_counts[thresh]+=maf_dict[key][thresh]
         #write the allele counts from the current bin sample
