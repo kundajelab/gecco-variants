@@ -19,5 +19,5 @@ do
 	--job-name=$sample \
 	--time=24:00:00 \
 	--cpus-per-task=4 \
-	$SH_SCRIPT $PJECT_ROOT/$sample/$sample.json
+	$SH_SCRIPT $RUN_ROOT/$sample/$sample.json
 done
