@@ -1,6 +1,6 @@
 #!/bin/bash
 RUN_ROOT=/oak/stanford/groups/akundaje/projects/GECCO/scacheri_46_h3k27ac_chipseq/output_hg19
-LOG_DIR=$RUN_ROOT/logs
+LOG_DIR=/oak/stanford/groups/akundaje/projects/GECCO/scacheri_46_h3k27ac_chipseq/logs_hg19
 mkdir -p $LOG_DIR
 
 SH_SCRIPT=/scratch/PI/akundaje/annashch/gecco-variants/encode_pipeline/template_submission.sh
@@ -19,5 +19,5 @@ do
 	--job-name=$sample \
 	--time=24:00:00 \
 	--cpus-per-task=4 \
-	$SH_SCRIPT $RUN_ROOT/$sample/$sample.json
+	$SH_SCRIPT $sample.json
 done
