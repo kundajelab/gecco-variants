@@ -11,13 +11,13 @@ do
     echo $sample
     cd $RUN_ROOT/$sample
     sbatch --partition akundaje,owners,euan,normal \
-	--mem=35G \
+	--mem=50G \
 	-o $LOG_DIR/$sample.o \
 	-e $LOG_DIR/$sample.e  \
 	-n 1 \
 	--ntasks-per-node=1 \
 	--job-name=$sample \
-	--time=24:00:00 \
+	--time=48:00:00 \
 	--cpus-per-task=4 \
 	$SH_SCRIPT $sample.json
 done
