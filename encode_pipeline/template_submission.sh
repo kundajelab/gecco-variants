@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 GIT_DIR=/home/users/annashch/chip-seq-pipeline2
-CROMWELL_JAR=/home/users/annashch/cromwell-34.jar
+CROMWELL_JAR=/home/users/annashch/cromwell-40.jar
 
 # do not touch these settings
 #  number of tasks and nodes are fixed at 1
