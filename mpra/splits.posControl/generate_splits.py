@@ -18,7 +18,6 @@ def parse_args():
 def main():
     args=parse_args()
     data=pd.read_csv(args.bed,header=0,sep='\t')
-    print(data)
     out_files={}
     for split in splits:
         out_files[split]=open(args.bed+'.'+str(split),'w')
