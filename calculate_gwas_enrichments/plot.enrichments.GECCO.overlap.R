@@ -23,43 +23,35 @@ cols=c("#FF0000",
             "#4F8F23",
             "#000000",
             "#737373",
-            "#CCCCCC")
+            "#CCCCCC",
+           '#FF00AA',
+           '#4F8F23')
 
-data=read.table("cluster.enrichments.Kunkle.overlap.txt",header=TRUE,sep='\t')
-data$Cluster=factor(data$Cluster,levels=c("Cluster1",
-                                          "Cluster2",
-                                          "Cluster3",
-                                          "Cluster4",
-                                          "Cluster5",
-                                          "Cluster6",
-                                          "Cluster7",
-                                          "Cluster8",
-                                          "Cluster9",
-                                          "Cluster10",
-                                          "Cluster11",
-                                          "Cluster12",
-                                          "Cluster13",
-                                          "Cluster14",
-                                          "Cluster15",
-                                          "Cluster16",
-                                          "Cluster17",
-                                          "Cluster18",
-                                          "Cluster19",
-                                          "Cluster20",
-                                          "Cluster21",
-                                          "Cluster22",
-                                          "Cluster23",
-                                          "Cluster24"))
-
+data=read.table("annotated.gecco.gwas.enrichments.peaks.overlap.bed",header=TRUE,sep='\t')
 ggplot(data=data,
        aes(x=data$Vcfbin,
            y=data$Fold,
            group=data$Cluster,
-           color=data$Cluster))+
+           color=data$Group))+
   geom_line(width=2)+
   scale_x_reverse()+
-  scale_color_manual(name="Cluster",values=cols)+
+  scale_color_manual(name="Group",values=cols)+
   xlab("log p-value")+
   ylab("Fold Enrichment")+
-  ggtitle("Kunkle 2019 GWAS enrichments, Overlap Peaks")+
+  ggtitle("GECCO CRC GWAS, Overlap Peaks + Roadmap DNAse")+
+  theme_bw(20)
+
+
+data=read.table("annotated.gecco.gwas.enrichments.enhancer_annotations.overlap.bed",header=TRUE,sep='\t')
+ggplot(data=data,
+       aes(x=data$Vcfbin,
+           y=data$Fold,
+           group=data$Cluster,
+           color=data$Group))+
+  geom_line(width=2)+
+  scale_x_reverse()+
+  scale_color_manual(name="Group",values=cols)+
+  xlab("log p-value")+
+  ylab("Fold Enrichment")+
+  ggtitle("GECCO CRC GWAS, Overlap Peaks + Roadmap enhancer chromatin states")+
   theme_bw(20)
