@@ -16,6 +16,33 @@ def parse_args():
     parser.add_argument("--peaks",nargs="+") 
     return parser.parse_args()
 
+def scale_gc(cur_gc):
+    if random.random()>0.5:
+        cur_gc+=0.01
+    else:
+        cur_gc-=0.01
+    cur_gc=round(cur_gc,2)
+    if cur_gc <=0:
+        cur_gc+=0.01
+    if cur_gc>=1:
+        cur_gc-=0.01
+    assert cur_gc >=0
+    assert cur_gc <=1
+    return cur_gc 
+
+def adjust_gc(cur_gc,negatives,used_negatives):
+    #verify that cur_gc is in negatives dict
+    if cur_gc not in used_negatives:
+        used_negatives[cur_gc]=dict()
+    while (cur_gc not in negatives) or (len(used_negatives[cur_gc])>=len(negatives[cur_gc])):
+        #all options for this gc value have been used up. Adjust the gc
+        cur_gc=scale_gc(cur_gc)
+        if cur_gc not in used_negatives:
+            used_negatives[cur_gc]=dict()
+    return cur_gc,used_negatives 
+
+        
+
 def main():
     args=parse_args()
     ref=pysam.FastaFile(args.ref_fasta)
@@ -42,58 +69,20 @@ def main():
             chrom=row[0]
             if chrom!=args.chrom:
                 continue
-            gc=round(row[3],2)
-            cur_gc=gc
-            assert cur_gc >=0
-            assert cur_gc <=1
-            if cur_gc not in used_negatives:
-                used_negatives[cur_gc]=dict() 
+            cur_gc,used_negatives=adjust_gc(row[3],negatives,used_negatives)
             start=row[1]
             end=row[2]
             seq=row[4]
-            header='_'.join([str(i) for i in [chrom,start,end,gc]])
+            header='_'.join([str(i) for i in [chrom,start,end,row[3]]])
+            
             #get matched negative sequence
-            num_candidates=len(negatives[gc])
-            #print('num_candidates:'+str(num_candidates))
+            num_candidates=len(negatives[cur_gc])
             rand_neg_index=random.randint(0,num_candidates-1)
-            while rand_neg_index in used_negatives[cur_gc]:                
-                cur_used=len(used_negatives[cur_gc])
-                if cur_used >=num_candidates:
-                    #no more options at this GC level, need to adjust
-                    print("no more options for chrom:"+str(args.chrom)+', GC='+str(cur_gc)+',adjusting')
-                    if random.random()>0.5:
-                        cur_gc+=0.01
-                    else:
-                        cur_gc-=0.01
-                    cur_gc=round(cur_gc,2)
-                    if cur_gc <=0:
-                        cur_gc+=0.01
-                    if cur_gc>=1:
-                        cur_gc-=0.01
-                    assert cur_gc >=0
-                    assert cur_gc <=1
-
-                    if cur_gc not in used_negatives:
-                        used_negatives[cur_gc]=dict() 
-                    while (cur_gc not in negatives) or (len(used_negatives[cur_gc])>=len(negatives[cur_gc])):
-                        print("no more options for chrom:"+str(args.chrom)+', GC='+str(cur_gc)+',adjusting')
-                        if random.random()>0.5:
-                            cur_gc+=0.01
-                        else:
-                            cur_gc-=0.01
-                        cur_gc=round(cur_gc,2)
-                        if cur_gc <=0:
-                            cur_gc+=0.01
-                        if cur_gc>=1:
-                            cur_gc-=0.01
-                        assert cur_gc >=0
-                        assert cur_gc <=1
-                        if cur_gc not in used_negatives:
-                            used_negatives[cur_gc]=dict() 
+            while rand_neg_index in used_negatives[cur_gc]:
+                cur_gc,used_negatives=adjust_gc(cur_gc,negatives,used_negatives)
                 num_candidates=len(negatives[cur_gc])
                 rand_neg_index=random.randint(0,num_candidates-1)
             #make sure we don't sample this value again
-            #print('rand_neg_index:'+str(rand_neg_index))
             used_negatives[cur_gc][rand_neg_index]=1
             cur_neg=negatives[cur_gc][rand_neg_index]            
             outf_pos.write('>'+header+'\n'+seq+'\n')
