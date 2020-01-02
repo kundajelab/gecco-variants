@@ -1,4 +1,4 @@
-for i in `seq 5 22` X Y
+for i in `seq 1 22` X Y
 do
     python /srv/scratch/annashch/bias_correction/genomewide_gc/get_gc_content.py \
 	   --input_bed gecco.classificationlabels.SummitWithin200bpCenter.bed.chr$i.gz.universal_negatives \
