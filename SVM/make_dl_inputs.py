@@ -20,6 +20,7 @@ def main():
     for i in range(len(args.tasks)):
         cur_task=args.tasks[i]
         cur_pos=pd.read_csv(args.positives[i],header=None,sep='\t')
+        cur_pos[2]=cur_pos[2]+1
         cur_neg=pd.read_csv(args.negatives[i],header=None,sep='\t')
         cur_pos[cur_task]=1
         cur_neg[cur_task]=0
