@@ -1,16 +1,21 @@
 rm(list=ls())
 library(ggplot2)
 data=read.table("aggregate_performance.tsv",header=TRUE,sep='\t')
-data=data[data$Metric %in% c("auprc", 
-                             "auroc", 
-                             "balanced_accuracy", 
-                             "negative_accuracy",
-                             "positive_accuracy",
-                             "recall_at_fdr_50",
-                             "recall_at_fdr_20"),]
+# columns to paste together
+cols <- c( 'Model' , 'TrainSet' , 'TestSet' )
+
+# create a new column `x` with the three columns collapsed together
+data$Experiment <- apply( data[ , cols ] , 1 , paste , collapse = "-" )
+
 attach(data)
-ggplot(data, aes(x = Fold,y=Val,group=Model,fill=Model)) +
-  geom_bar(stat='identity',position='dodge') +
-  facet_grid(rows=vars(Metric),cols=vars(Task))+
-  scale_fill_manual(values=c("#e41a1c",'#377eb8'))+
-  scale_x_continuous(name="Fold",breaks=seq(0,9),labels=seq(0,9))
+p1=ggplot(data, aes(x = Fold,y=auPRC,group=Experiment,linetype=Model,color=Experiment)) +
+  geom_line() +
+  geom_point()+
+  facet_wrap(vars(Task),ncol = 5)+
+  scale_linetype_manual(values=c("solid","dashed"))+
+  scale_color_manual(values=c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33'))+
+  scale_x_continuous(name="Fold",breaks=seq(0,9),labels=seq(0,9))+
+  theme(legend.position="bottom")+
+  theme_bw(10)
+
+  
