@@ -23,6 +23,7 @@ def main():
         perf_data=open(perf_dir+'/perf.metrics.txt','r').read().strip().split('\n')
         for line in perf_data[1::]:
             tokens=line.split('\t')
+            print(tokens)
             cur_task=tokens[0]
             cur_fold=tokens[1]                                
             cur_auprc=tokens[2]
