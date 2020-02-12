@@ -23,17 +23,9 @@ def main():
         perf_data=open(perf_dir+'/perf.metrics.txt','r').read().strip().split('\n')
         for line in perf_data[1::]:
             tokens=line.split('\t')
-            print(tokens[0])
-            print(tokens[0].split('.'))
-            cur_task=tokens[0].split('.')[-2]
-            cur_fold=tokens[0].split('.')[-1]
-            if cur_fold not in [str(i) for i in range(10)]:
-                tmp=cur_task
-                cur_task=cur_fold
-                cur_fold=tmp
-                
-                
-            cur_auprc=tokens[1]
+            cur_task=tokens[0]
+            cur_fold=tokens[1]                                
+            cur_auprc=tokens[2]
             outf.write(cur_task+'\t'+cur_fold+'\t'+cur_model+'\t'+cur_trainset+'\t'+cur_testset+'\t'+cur_auprc+'\n')
             
     outf.close()
