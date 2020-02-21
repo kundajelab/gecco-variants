@@ -59,7 +59,7 @@ def plot_seq_importance(outf,tracks,labels,ylim,xlim,snp_pos, heatmap_indices=No
         plt.colorbar(hmaps[hmap_index],ax=axes[hmap_index],orientation='horizontal')
     plt.subplots_adjust(hspace=0.5)
     plt.tight_layout()
-    plt.savefig(outf,format='svg',dpi=120)
+    plt.savefig(outf,format='png',dpi=120)
     plt.close() 
     return 
 
@@ -193,7 +193,7 @@ def plot_wrapper(snp_info,fold_to_use,task,args):
                    rsid+' '+task+' fold:'+str(fold_to_use)+' DeepSHAP alt reg. :'+snp_info[3],
                    rsid+' '+task+' fold:'+str(fold_to_use)+' DeepSHAP alt - ref reg.']
     snp_pos=[args.snp_pos for i in range(len(toplot_tracks))]
-    plot_seq_importance(args.outf_prefix+'/'+rsid+'/'+task+'.'+rsid+'.'+str(fold_to_use)+'.svg',
+    plot_seq_importance(args.outf_prefix+'/'+rsid+'/'+task+'.'+rsid+'.'+str(fold_to_use)+'.png',
                         toplot_tracks,
                         toplot_labels,
                         ylim=ylim,

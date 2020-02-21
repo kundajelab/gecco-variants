@@ -21,8 +21,11 @@ def get_enrichments_one_peakset(inputs):
     num_all_gwas_hits=inputs[3]
     peak_overlap_bed=pd.read_csv(peak_overlap_bed_file,header=None,sep='\t')
     print("loaded:"+peak_overlap_bed_file)
-    num_peak_overlap_gwas=peak_overlap_bed.shape[0] #number of gwas hits overlapping peaks 
-    peak_overlap_bed[8]=round(-1*np.log10(peak_overlap_bed[7]),int(-1*np.log10(args.increment)))
+    num_peak_overlap_gwas=peak_overlap_bed.shape[0] #number of gwas hits overlapping peaks
+    try: 
+        peak_overlap_bed[8]=round(-1*np.log10(peak_overlap_bed[7]),int(-1*np.log10(args.increment)))
+    except:
+        peak_overlap_bed[8]=round(-1*np.log10(peak_overlap_bed[4]),int(-1*np.log10(args.increment)))
     #convert to dict
     peak_overlap_dict=dict()
     for i in np.arange(0,max_pval,args.increment):

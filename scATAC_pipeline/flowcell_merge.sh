@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#2 samples were run on 2 flowcells, as the first flow cell did not provide enough reads 
+
+mkdir -p /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1
+cat /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S6/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S6_R1.dex.fastq.gz /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S2/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S2_R1.dex.fastq.gz > /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_R1.dex.fastq.gz &
+cat /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S6/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S6_R3.dex.fastq.gz /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S2/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_S2_R3.dex.fastq.gz > /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W61_COLM_B_8817_X006_S08_B1_T1/scATAC_W61_COLM_B_8817_X006_S08_B1_T1_R3.dex.fastq.gz &
+
+mkdir -p /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1
+cat /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_1/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_R1.dex.fastq.gz /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_2/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_R1.dex.fastq.gz >/oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_R1.dex.fastq.gz &
+cat /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_1/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_R3.dex.fastq.gz /oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_2/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_S16_R3.dex.fastq.gz >/oak/stanford/groups/akundaje/projects/colon_scATAC/demux/scATAC_W76_MODC_B_10931_X016_S03_B1_T1/scATAC_W76_MODC_B_10931_X016_S03_B1_T1_R3.dex.fastq.gz &

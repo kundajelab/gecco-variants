@@ -1,6 +1,8 @@
 rm(list=ls())
 library(ggplot2)
-cols=c("#FF0000",
+library(reshape2)
+
+cols=c(     "#FF0000",
             "#FFFF00",
             "#00EAFF",
             "#AA00FF",
@@ -27,31 +29,63 @@ cols=c("#FF0000",
            '#FF00AA',
            '#4F8F23')
 
-data=read.table("annotated.gecco.gwas.enrichments.peaks.overlap.bed",header=TRUE,sep='\t')
-ggplot(data=data,
-       aes(x=data$Vcfbin,
-           y=data$Fold,
-           group=data$Cluster,
-           color=data$Group))+
-  geom_line(width=2)+
-  scale_x_reverse()+
+data=read.table("annotated.reshaped.enrichments.txt",header=TRUE,sep='\t')
+p1=ggplot(data=data,
+       aes(x=data$pval,
+           y=data$enrichment,
+           group=data$tissue,
+           color=data$celltype))+
+  geom_line(size=0.3)+
   scale_color_manual(name="Group",values=cols)+
-  xlab("log p-value")+
+  xlab("-log p-value")+
   ylab("Fold Enrichment")+
-  ggtitle("GECCO CRC GWAS, Overlap Peaks + Roadmap DNAse")+
-  theme_bw(20)
+  ggtitle("GECCO CRC GWAS+Roadmap DNAse + ChromHMM Enhancers")+
+  theme_bw(20)+
+  xlim(0,15)+
+  ylim(1,4)
 
-
-data=read.table("annotated.gecco.gwas.enrichments.enhancer_annotations.overlap.bed",header=TRUE,sep='\t')
-ggplot(data=data,
-       aes(x=data$Vcfbin,
-           y=data$Fold,
-           group=data$Cluster,
-           color=data$Group))+
-  geom_line(width=2)+
-  scale_x_reverse()+
+scacheri=data[data$group=="Scacheri",]
+p2=ggplot(data=scacheri,
+          aes(x=scacheri$pval,
+              y=scacheri$enrichment,
+              group=scacheri$tissue,
+              color=scacheri$celltype))+
+  geom_line(size=0.3)+
   scale_color_manual(name="Group",values=cols)+
-  xlab("log p-value")+
+  xlab("-log p-value")+
   ylab("Fold Enrichment")+
-  ggtitle("GECCO CRC GWAS, Overlap Peaks + Roadmap enhancer chromatin states")+
-  theme_bw(20)
+  ggtitle("GECCO CRC GWAS")+
+  theme_bw(20)+
+  xlim(0,15)+
+  ylim(1,4)
+
+enh=data[data$group=="Enh",]
+p3=ggplot(data=enh,
+          aes(x=enh$pval,
+              y=enh$enrichment,
+              group=enh$tissue,
+              color=enh$celltype))+
+  geom_line(size=0.3)+
+  scale_color_manual(name="Group",values=cols)+
+  xlab("-log p-value")+
+  ylab("Fold Enrichment")+
+  ggtitle("ChromHMM Enhancers")+
+  theme_bw(20)+
+  xlim(0,15)+
+  ylim(1,4)
+
+dnase=data[data$group=="200k",]
+p4=ggplot(data=dnase,
+          aes(x=dnase$pval,
+              y=dnase$enrichment,
+              group=dnase$tissue,
+              color=dnase$celltype))+
+  geom_line(size=0.3)+
+  scale_color_manual(name="Group",values=cols)+
+  xlab("-log p-value")+
+   ylab("Fold Enrichment")+
+  ggtitle("Roadmap DNAse top 200k peaks")+
+  theme_bw(20)+
+  xlim(0,15)+
+  ylim(1,4)
+

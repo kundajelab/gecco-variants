@@ -1,0 +1,6 @@
+task=COLM
+python form_svm_input_fastas.py --outf svm.inputs.$task.test.0 svm.inputs.$task.test.1 svm.inputs.$task.test.2 svm.inputs.$task.test.3 svm.inputs.$task.test.4 svm.inputs.$task.test.5 svm.inputs.$task.test.6 svm.inputs.$task.test.7 svm.inputs.$task.test.8 svm.inputs.$task.test.9 svm.inputs.$task.train.0 svm.inputs.$task.train.1 svm.inputs.$task.train.2 svm.inputs.$task.train.3 svm.inputs.$task.train.4 svm.inputs.$task.train.5 svm.inputs.$task.train.6 svm.inputs.$task.train.7 svm.inputs.$task.train.8 svm.inputs.$task.train.9 \
+       --neg_pickle $task.candidate.negatives.gc.p \
+       --overwrite_outf \
+       --ref_fasta /mnt/data/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta \
+       --peaks svm.peaks.$task.test.0.gc.seq svm.peaks.$task.test.1.gc.seq svm.peaks.$task.test.2.gc.seq svm.peaks.$task.test.3.gc.seq svm.peaks.$task.test.4.gc.seq svm.peaks.$task.test.5.gc.seq svm.peaks.$task.test.6.gc.seq svm.peaks.$task.test.7.gc.seq svm.peaks.$task.test.8.gc.seq svm.peaks.$task.test.9.gc.seq svm.peaks.$task.train.0.gc.seq svm.peaks.$task.train.1.gc.seq svm.peaks.$task.train.2.gc.seq svm.peaks.$task.train.3.gc.seq svm.peaks.$task.train.4.gc.seq svm.peaks.$task.train.5.gc.seq svm.peaks.$task.train.6.gc.seq svm.peaks.$task.train.7.gc.seq svm.peaks.$task.train.8.gc.seq svm.peaks.$task.train.9.gc.seq 

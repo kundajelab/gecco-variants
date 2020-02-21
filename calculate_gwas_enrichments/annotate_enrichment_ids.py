@@ -1,5 +1,5 @@
 import pandas as pd
-enrichments=open("reshaped.enrichments.txt",'r').read().strip().split('\n')
+enrichments=open("reshaped.enrichments.tsv",'r').read().strip().split('\n')
 idmap=pd.read_csv("roadmap_id_map.csv",header=None,sep='\t')
 outf=open("annotated.reshaped.enrichments.txt",'w')
 idmap_dict=dict()
@@ -14,14 +14,22 @@ for line in enrichments[1::]:
     tissue=tokens[1]
     value=tokens[2]
     tissue_tokens=tissue.split('.')
-    group=tissue_tokens[0]
+    if tissue.startswith('Enh'):
+        group='Enh'
+    elif tissue.startswith('E'):
+        group="200k"
+    else:
+        group="Scacheri"
     if len(tissue_tokens)>1:
         celltype=tissue_tokens[1]
-        if celltype in idmap_dict:
-            celltype=idmap_dict[celltype]
     else:
-        celltype=tissue        
+        celltype=tissue_tokens[0]
+    if celltype in idmap_dict:
+        celltype=idmap_dict[celltype]
+    print(celltype+","+group)
     outf.write('\t'.join([pval,tissue,value,celltype,group])+'\n')
 outf.write('\n')
-outf.write('\n'.join(enrichments[1::])+'\n')
+outf.close()
+
+#outf.write('\n'.join(enrichments[1::])+'\n')
     

@@ -60,7 +60,7 @@ def one_hot_encode_wrapper(seq_file):
     encoded={}
     for line in data:
         tokens=line.split('\n') 
-        snp_label=tokens[0]
+        snp_label=tuple(tokens[0].split('_')[0:-1])
         seq=tokens[1]
         snp_labels.append(snp_label)
         seqs.append(seq)

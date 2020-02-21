@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument("--snp_pos",type=int,default=501)    
     return parser.parse_args()
 
-def plot_seq_importance(title,tracks,labels,ylim,xlim,snp_pos, heatmaps, figsize=(12, 15)):
+def plot_seq_importance(title,tracks,labels,ylim,xlim,snp_pos, heatmaps, figsize=(20,15)):
     font = {'family' : 'normal',
             'weight' : 'bold',
             'size'   : 8}
@@ -62,7 +62,7 @@ def plot_seq_importance(title,tracks,labels,ylim,xlim,snp_pos, heatmaps, figsize
         plt.colorbar(hmaps[hmap_index],ax=axes[hmap_index[0],hmap_index[1]],orientation='horizontal')
     plt.subplots_adjust(hspace=0.5)
     plt.tight_layout()
-    plt.savefig(title,format='svg',dpi=60)
+    plt.savefig(title,format='png',dpi=300)
     plt.close() 
     return 
 
@@ -167,7 +167,7 @@ def plot_wrapper(snp_info,task,args):
 
         heatmaps=[False,False,False]
         all_heatmaps.append(heatmaps)
-    plot_seq_importance(args.outf_prefix+'/'+rsid+'/'+'folds'+'.'+task+'.'+rsid+'.svg',
+    plot_seq_importance(args.outf_prefix+'/'+rsid+'/'+'folds'+'.'+task+'.'+rsid+'.png',
                         all_toplot_tracks,
                         all_toplot_labels,
                         ylim=all_ylim,
