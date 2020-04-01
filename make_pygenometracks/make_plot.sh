@@ -1,9 +1,1 @@
-pyGenomeTracks --tracks tracks.ini --region chr10:101350784-101355784 --outFileName /srv/scratch/annashch/gecco/plots/rs1318920/rs1318920.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr1:38453390-38458390 --outFileName /srv/scratch/annashch/gecco/plots/rs4360494/rs4360494.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr14:54646792-54651792 --outFileName /srv/scratch/annashch/gecco/plots/rs12896913/rs12896913.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr14:54793668-54798668 --outFileName /srv/scratch/annashch/gecco/plots/rs17127473/rs17127473.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr16:68756327-68761327 --outFileName /srv/scratch/annashch/gecco/plots/rs28549017/rs28549017.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr20:60942302-60947302 --outFileName /srv/scratch/annashch/gecco/plots/rs6089354/rs6089354.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr20:62223007-62228007 --outFileName /srv/scratch/annashch/gecco/plots/rs16983844/rs16983844.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr6:31348632-31353632 --outFileName /srv/scratch/annashch/gecco/plots/rs2244490/rs2244490.pdf &
-pyGenomeTracks --tracks tracks.ini --region chr6:32040656-32045656 --outFileName /srv/scratch/annashch/gecco/plots/rs204879/rs204879.pdf &
+pyGenomeTracks  --tracks gecco.tracks.ini --fontSize 8 --dpi 60 --region chr10:101325000-101500000 --outFileName gecco.hg19.chr10:101325000_101500000.pdf 
