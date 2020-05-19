@@ -32,8 +32,8 @@ def main():
         index+=1
         tokens=cur_line.split('\t')
         chrom=tokens[0]
-        tok1=int(tokens[1])
-        tok2=int(tokens[2])
+        tok1=int(float(tokens[1]))
+        tok2=int(float(tokens[2]))
         pos_start=tok1-1
         pos_end=tok1+read_length
         neg_end=tok2-1
