@@ -1,0 +1,4 @@
+get_gecco_snps_in_dnase_peaks.sh
+create_fold_splits.py
+expand_regions.sh
+get_fasta_from_regions.sh
