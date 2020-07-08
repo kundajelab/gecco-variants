@@ -13,11 +13,19 @@ def main():
     for line in fasta:
         tokens=line.split('\n')
         if len(tokens)<2:
-            print(tokens)
+            #print(tokens)
             continue
         alt=tokens[0].split('/')[-1]
+        ref=tokens[0].split('/')[0].split('_')[-1]
         seq=tokens[1]
-        alt_seq=seq[0:args.allele_pos]+alt+seq[args.allele_pos+1::]
+        if seq[args.allele_pos].lower()==alt.lower():
+            alt_seq=seq[0:args.allele_pos]+ref+seq[args.allele_pos+1::]
+        else:
+            #print(seq[args.allele_pos].lower())
+            #print(ref.lower())
+            #print("-----------")
+            assert seq[args.allele_pos].lower()==ref.lower()
+            alt_seq=seq[0:args.allele_pos]+alt+seq[args.allele_pos+1::]
         outf.write('>'+tokens[0]+'\n'+alt_seq+'\n')
     outf.close()
     
