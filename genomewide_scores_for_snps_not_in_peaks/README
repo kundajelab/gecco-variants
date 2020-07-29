@@ -1,0 +1,7 @@
+get_gecco_snps_not_in_dnase_peaks.sh #identify the remaining SNPs in the GECCO panel that are not in the DNASE peak set 
+create_fold_splits.py
+expand_regions.sh
+get_fasta_from_regions.sh
+#create alternate allele fasta
+get_alt_allele_fasta.sh
+
