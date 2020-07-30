@@ -10,8 +10,8 @@ do
     end_flank="$(($pos+$highlight_flank))"
     leadsnp=$chrom:$pos\_$alleles
     echo $leadsnp
-    locuszoom  --epacts all.formatted.shifted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EUR --source 1000G_Nov2014 --refsnp $leadsnp --flank 100kb --gwas-cat whole-cat_significant-only --gene-table gencode --plotonly --no-date --prefix EUR --svg theme=publication signifLine=8  title="$rsid:$leadsnp" hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE
-    locuszoom  --epacts all.formatted.shifted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EAS --source 1000G_Nov2014 --refsnp $leadsnp --flank 100kb --gwas-cat whole-cat_significant-only --gene-table gencode --plotonly --no-date --prefix EAS --svg theme=publication signifLine=8  title="$rsid:$leadsnp" hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE
+    #locuszoom  --epacts all.formatted.shifted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EUR --source 1000G_Nov2014 --refsnp $leadsnp --flank 100kb --gwas-cat whole-cat_significant-only --gene-table gencode --plotonly --no-date --prefix EUR --svg theme=publication signifLine=8  title="$rsid:$leadsnp" hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE
+    locuszoom  --epacts all.formatted.shifted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop ASN --source 1000G_Nov2014 --refsnp $leadsnp --flank 100kb --gwas-cat whole-cat_significant-only --gene-table gencode --plotonly --no-date --prefix ASN --svg theme=publication signifLine=8  title="$rsid:$leadsnp" hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE
 done
 
 
