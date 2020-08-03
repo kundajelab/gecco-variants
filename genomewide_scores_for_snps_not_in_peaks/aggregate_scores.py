@@ -1,7 +1,11 @@
 import pysam
 score_dict={}
-prefix_ref="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores/pred_ref"
-prefix_alt="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores/pred_alt"
+#prefix_ref="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores/pred_ref"
+#prefix_alt="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores/pred_alt"
+
+prefix_ref="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores_outside_peaks/pred_ref"
+prefix_alt="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores_outside_peaks/pred_alt"
+
 datasets=["colo205","hct116","sw480","dnase_c","dnase_v"]
 ref_fasta=pysam.FastaFile("/mnt/data/male.hg19.fa")
 for dataset in datasets:
@@ -15,7 +19,7 @@ for dataset in datasets:
             chrom='chr'+snp.split(':')[0]
             pos=int(snp.split(':')[1].split('_')[0])-1
             ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            print(ref_fasta_allele)
+            #print(ref_fasta_allele)
             ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()
             svm_score=float(tokens[1])
             if snp not in score_dict:
@@ -25,14 +29,15 @@ for dataset in datasets:
             if ref_fasta_allele == ref_snp_allele:
                 score_dict[snp][dataset]['ref']=svm_score
             else:
-                score_dict[snp][dataset]['alt']=svm_score 
+                score_dict[snp][dataset]['alt']=svm_score
+        print("processed ref") 
         for line in pred_alt:
             tokens=line.split('\t')
             snp=tokens[0]
             chrom='chr'+snp.split(':')[0]
             pos=int(snp.split(':')[1].split('_')[0])-1
             ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            print(ref_fasta_allele)
+            #print(ref_fasta_allele)
             ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()            
             svm_score=float(tokens[1])
             if snp not in score_dict:
@@ -43,8 +48,10 @@ for dataset in datasets:
                 score_dict[snp][dataset]['alt']=svm_score
             else:
                 score_dict[snp][dataset]['ref']=svm_score
-                
-outf=open('gecco.snps.in.peaks.svm.scores.txt','w')
+        print("processed alt")
+print("generating output file") 
+#outf=open('gecco.snps.in.peaks.svm.scores.txt','w')
+outf=open('gecco.snps.not.in.peaks.svm.scores.txt','w')
 outf.write('SNP')
 for dataset in datasets:
     outf.write('\t'+dataset+".REF"+'\t'+dataset+".ALT"+'\t'+dataset+".ALT-REF")
