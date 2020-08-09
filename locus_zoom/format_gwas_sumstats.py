@@ -8,12 +8,13 @@ for chrom in range(1,23):
     data['#CHROM']=data['chr']
     data['BEGIN']=data['pos']
     data['END']=data['pos']+1
-    data['MARKER_ID']=data['chr'].astype(str)+"_"+data['pos'].astype(str)+"_"+data['allele_A'].astype(str)+'/'+data['allele_B'].astype(str)
+    data['MARKER_ID']=data['chr'].astype(str)+":"+data['pos'].astype(str)+"_"+data['allele_A'].astype(str)+'/'+data['allele_B'].astype(str)
     data['PVALUE']=data['P_value']
+    data["PVALUE"][data["PVALUE"]==0]=1e-50
     data=data[['#CHROM','BEGIN','END','MARKER_ID','PVALUE']]
     if merged_df is None:
         merged_df=data
     else:
         merged_df=pd.concat([merged_df,data],axis=0)
 #write to output
-merged_df.to_csv("all.formatted.bed.new.gz",compression='gzip',header=True,sep='\t',index=False) 
+merged_df.to_csv("all.formatted.bed.gz",compression='gzip',header=True,sep='\t',index=False) 
