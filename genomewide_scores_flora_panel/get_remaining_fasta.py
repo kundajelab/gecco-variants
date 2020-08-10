@@ -16,7 +16,7 @@ def main():
     print(str(len(fasta)))
     found=False 
     for i in range(len(fasta)): 
-        print(fasta[i][0])
+        #print(fasta[i][0])
         if fasta[i][0]==last_parsed: 
             found=True
             break 
