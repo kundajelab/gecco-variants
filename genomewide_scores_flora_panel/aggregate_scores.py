@@ -15,7 +15,7 @@ for dataset in datasets:
             chrom='chr'+snp.split(':')[0]
             pos=int(snp.split(':')[1].split('_')[0])-1
             ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            print(ref_fasta_allele)
+            #print(ref_fasta_allele)
             ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()
             svm_score=float(tokens[1])
             if snp not in score_dict:
@@ -32,7 +32,7 @@ for dataset in datasets:
             chrom='chr'+snp.split(':')[0]
             pos=int(snp.split(':')[1].split('_')[0])-1
             ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            print(ref_fasta_allele)
+            #print(ref_fasta_allele)
             ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()            
             svm_score=float(tokens[1])
             if snp not in score_dict:

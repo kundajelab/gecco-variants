@@ -13,12 +13,18 @@ do
 
     #200kb, EUR 
     #locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EUR --source 1000G_Nov2014 --refsnp $rsid --flank 100kb  --gene-table gencode --plotonly --no-date --prefix EUR.200kb --svg theme=publication   hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
+
+    #500kb, EUR
+    #locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EUR --source 1000G_Nov2014 --refsnp $rsid --flank 250kb  --gene-table gencode --plotonly --no-date --prefix EUR.500kb --svg theme=publication   hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
     
     #1MB, EUR
     #locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop EUR --source 1000G_Nov2014 --refsnp $rsid --flank 500kb  --gene-table gencode --plotonly --no-date --prefix EUR.1MB --svg theme=publication hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
 
     #200kb, ASN
     #locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop ASN --source 1000G_Nov2014 --refsnp $rsid --flank 100kb  --gene-table gencode --plotonly --no-date --prefix ASN.200KB --svg theme=publication hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
+
+    #500kb, ASN
+    #locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop ASN --source 1000G_Nov2014 --refsnp $rsid --flank 250kb  --gene-table gencode --plotonly --no-date --prefix ASN.500KB --svg theme=publication hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
 
     #1MB, ASN
     locuszoom  --epacts all.formatted.bed.gz --epacts-chr-col \#CHROM  --build hg19 --pop ASN --source 1000G_Nov2014 --refsnp $rsid --flank 500kb  --gene-table gencode --plotonly --no-date --prefix ASN.1MB --svg theme=publication hiStart=$start_flank hiEnd=$end_flank recombOver=TRUE &
