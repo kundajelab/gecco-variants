@@ -1,7 +1,7 @@
 import pysam
 score_dict={}
-prefix_ref="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores_flora/pred_ref_aggregate"
-prefix_alt="/oak/stanford/groups/akundaje/projects/GECCO/genome_wide_scores_flora/pred_alt_aggregate"
+prefix_ref="/oak/stanford/groups/akundaje/projects/GECCO/alcohol/pred_ref"
+prefix_alt="/oak/stanford/groups/akundaje/projects/GECCO/alcohol/pred_alt"
 datasets=["colo205","hct116","sw480","dnase_c","dnase_v"]
 ref_fasta=pysam.FastaFile("/mnt/data/male.hg19.fa")
 for dataset in datasets:
@@ -44,7 +44,7 @@ for dataset in datasets:
             else:
                 score_dict[snp][dataset]['ref']=svm_score
                 
-outf=open('gecco.snps.flora.svm.scores.txt','w')
+outf=open('gecco.snps.alcohol.svm.scores.txt','w')
 outf.write('SNP')
 for dataset in datasets:
     outf.write('\t'+dataset+".REF"+'\t'+dataset+".ALT"+'\t'+dataset+".ALT-REF")
