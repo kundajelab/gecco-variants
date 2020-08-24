@@ -12,38 +12,22 @@ for dataset in datasets:
         for line in pred_ref:
             tokens=line.split('\t')
             snp=tokens[0]
-            chrom='chr'+snp.split(':')[0]
-            pos=int(snp.split(':')[1].split('_')[0])-1
-            ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            #print(ref_fasta_allele)
-            ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()
             svm_score=float(tokens[1])
             if snp not in score_dict:
                 score_dict[snp]={}
             if dataset not in score_dict[snp]:
                 score_dict[snp][dataset]={}
-            if ref_fasta_allele == ref_snp_allele:
-                score_dict[snp][dataset]['ref']=svm_score
-            else:
-                score_dict[snp][dataset]['alt']=svm_score 
+            score_dict[snp][dataset]['ref']=svm_score
         for line in pred_alt:
             tokens=line.split('\t')
             snp=tokens[0]
-            chrom='chr'+snp.split(':')[0]
-            pos=int(snp.split(':')[1].split('_')[0])-1
-            ref_fasta_allele=ref_fasta.fetch(chrom,pos,pos+1).lower()
-            #print(ref_fasta_allele)
-            ref_snp_allele=snp.split('_')[-1].split('/')[0].lower()            
             svm_score=float(tokens[1])
             if snp not in score_dict:
                 score_dict[snp]={}
             if dataset not in score_dict[snp]:
                 score_dict[snp][dataset]={}
-            if ref_fasta_allele==ref_snp_allele:
-                score_dict[snp][dataset]['alt']=svm_score
-            else:
-                score_dict[snp][dataset]['ref']=svm_score
-                
+            score_dict[snp][dataset]['alt']=svm_score
+                            
 outf=open('gecco.snps.alcohol.svm.scores.txt','w')
 outf.write('SNP')
 for dataset in datasets:
