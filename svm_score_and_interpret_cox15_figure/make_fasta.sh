@@ -1,0 +1,11 @@
+python make_fasta.py \
+       -ref_fasta /mnt/data/male.hg19.fa \
+       -chrom_sizes /mnt/data/annotations/by_release/hg19/hg19.chrom.sizes \
+       -snp_file rs11190164.all.ld.snps.bim \
+       -chrom_col Chr \
+       -pos1_col Pos1 \
+       -name_col RSID \
+       -out_prefix cox15 \
+       -ref_allele_col Ref \
+       -alt_allele_col Alt \
+       --flank 500 
