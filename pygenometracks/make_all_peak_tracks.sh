@@ -1,0 +1,9 @@
+./make_cell_line.dnase.bed.sh
+./make_cell_line.h3k27ac.bed.sh
+./make_cell_line.h3k4me1.bed.sh
+./make_control.dnase.bed.sh
+./make_control_h3k27ac.bed.sh
+./make_control_h3k4me1.bed.sh
+./make_tumor_dnase.sh
+./make_tumor_h3k27ac.bed.sh
+./make_tumor_h3k4me1.bed.sh
